@@ -10,6 +10,7 @@
         android:id="@+id/headerImageView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="16:9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@id/divider" />
 
     <TextView
-        android:id="@+id/earth"
+        android:id="@+id/origin2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Earth"
@@ -68,14 +69,14 @@
         android:layout_height="wrap_content"
         android:text="Species"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/earth"
+        app:layout_constraintTop_toBottomOf="@id/origin2"
         android:textSize="25dp"
         android:layout_margin="14dp"
         android:textStyle="italic"
         android:textColor="@color/black"/>
 
     <TextView
-        android:id="@+id/human"
+        android:id="@+id/species2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Human"
